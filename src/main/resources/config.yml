@@ -1,0 +1,15 @@
+levitation-amplifier: 0
+max-height: 50.0
+
+messages:
+  float-on: "<green>La levitazione è stata attivata."
+  float-off: "<red>La levitazione è stata disattivata."
+  float-on-other: "<green>Hai attivato la levitazione per <white><bold>{player}</bold></white>."
+  float-off-other: "<red>Hai disattivato la levitazione per <white><bold>{player}</bold></white>."
+  already-on: "<yellow>La levitazione è già attiva."
+  already-off: "<yellow>La levitazione è già disattivata."
+  no-permission: "<red>Non hai il permesso di eseguire questo comando."
+  not-player: "<red>Questo comando può essere eseguito solo da un giocatore."
+  player-not-found: "<red>Giocatore non trovato o non online."
+  reload: "<green>Configurazione ricaricata con successo."
+  usage: "<red>Uso: /floatify <on|off|reload> [player]"

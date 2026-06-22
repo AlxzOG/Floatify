@@ -1,0 +1,24 @@
+name: Floatify
+version: '${project.version}'
+main: it.toastcps.floatify.FloatifyPlugin
+api-version: '1.21'
+softdepend:
+  - WorldGuard
+
+commands:
+  floatify:
+    description: Comando principale di Floatify.
+    usage: /floatify <on|off|reload> [player]
+    aliases:
+      - float
+
+permissions:
+  floatify.use:
+    description: Permette di usare /floatify on/off su se stessi.
+    default: true
+  floatify.others:
+    description: Permette di usare /floatify on/off su altri giocatori.
+    default: op
+  floatify.admin:
+    description: Permette di usare /floatify reload.
+    default: op
