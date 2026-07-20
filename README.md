@@ -26,9 +26,11 @@ A lightweight, high-performance Paper/Spigot plugin that alters player gravity s
 ## 📦 WorldGuard Setup
 To bound the float effect to a specific area in your server, select your zone with WorldEdit (`//wand`) and execute the following commands:
 
+```text
 /rg define lobby-gravity
 /rg flag lobby-gravity floatify allow
 /rg setpriority lobby-gravity 10
+```
 
 ---
 
@@ -37,14 +39,15 @@ This project uses Maven for automated dependencies and build management.
 
 1. Clone the repository into your workspace.
 2. Build the production jar executing the following command in your terminal:
-   mvn clean package
-3. Locate the compiled floatify-1.0.0.jar inside the target/ directory.
-4. Drag and drop the jar file into your Paper/Spigot server's plugins/ folder and restart the server.
+   `mvn clean package`
+3. Locate the compiled `floatify-1.0.0.jar` inside the `target/` directory.
+4. Drag and drop the jar file into your Paper/Spigot server's `plugins/` folder and restart the server.
 
 ---
 
 ## 📝 Configuration (config.yml)
 
+```yaml
 # Floatify Configuration
 # Crafted with care by ToastCPS
 
@@ -57,6 +60,15 @@ messages:
   disabled: "<gray>Gravity restored. Welcome back to earth.</gray>"
   no-permission: "<red>You do not have permission to execute this command.</red>"
   reload: "<green>Configuration reloaded successfully.</green>"
+```
+
+---
+
+## 🗺️ Roadmap & Future Plans
+Features currently baking in the oven for future releases:
+* **PlaceholderAPI Support:** Track floating players and custom states via global placeholders.
+* **Custom Effects & Particles:** Configurable visual particle trails and sound cues when players enter zero-gravity zones.
+* **Velocity Multipliers:** Fine-tune horizontal drifting speeds while floating.
 
 ---
 Developed by ToastCPS © 2026. All rights reserved.
