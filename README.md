@@ -72,3 +72,4 @@ Features currently baking in the oven for future releases:
 
 ---
 Developed by ToastCPS © 2026. All rights reserved.
+<!-- Co-authored contribution placeholder -->
