@@ -1,6 +1,11 @@
+# Floatify Configuration
+# Crafted with care by ToastCPS
+
+# Impostazioni generali della gravità
 levitation-amplifier: 0
 max-height: 50.0
 
+# Messaggi del plugin (Supporta la formattazione MiniMessage)
 messages:
   float-on: "<green>La levitazione è stata attivata."
   float-off: "<red>La levitazione è stata disattivata."
